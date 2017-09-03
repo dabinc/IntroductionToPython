@@ -73,7 +73,6 @@ matt.speed = 20  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
-
 matt.draw_circle(10)
 matt.forward(50)
 ########################################################################
@@ -93,7 +92,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# T ODO: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -113,12 +112,14 @@ matt.forward(50)
 ########################################################################
 Dabin = rg.SimpleTurtle('turtle')
 Dabin.pen = rg.Pen('blue', 30)
-
+Dabin.right(45)
+Dabin.speed=25
+Dabin.forward(50)
 Dabin.draw_circle(50)
 
 ########################################################################
 #
-# TODO: 5.
+# TO DO: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
