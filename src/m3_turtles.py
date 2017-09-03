@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and dabin.
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -69,15 +69,16 @@ dave.forward(200)
 # ----------------------------------------------------------------------
 matt = rg.SimpleTurtle('turtle')
 matt.pen = rg.Pen('red', 30)
-matt.speed = 10  # Faster
+matt.speed = 20  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
 
-
+matt.draw_circle(10)
+matt.forward(50)
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -85,7 +86,8 @@ matt.forward(50)
 #      ** Nothing fancy is required. **
 #      ** A SUBSEQUENT exercise will let you show your creativity. **
 #
-#   As always, test by running the module.
+#   As always, test by runn
+# ing the module.
 #
 ########################################################################
 
@@ -109,6 +111,10 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
+Dabin = rg.SimpleTurtle('turtle')
+Dabin.pen = rg.Pen('blue', 30)
+
+Dabin.draw_circle(50)
 
 ########################################################################
 #
