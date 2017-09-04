@@ -113,7 +113,7 @@ matt.forward(50)
 Dabin = rg.SimpleTurtle('turtle')
 Dabin.pen = rg.Pen('blue', 30)
 Dabin.right(45)
-Dabin.speed=25
+Dabin.speed =10
 Dabin.forward(50)
 Dabin.draw_circle(50)
 
