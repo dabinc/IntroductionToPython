@@ -2,10 +2,10 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Dabin
 """
 ########################################################################
-# TODO: 1.
+# Done
 # On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ########################################################################
 
@@ -28,3 +28,41 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #
 #  Don't forget to COMMIT your work by using  VCS ~ Commit and Push.
 ########################################################################
+
+import rosegraphics as rg
+Dabin=rg.SimpleTurtle('turtle')
+
+Dabin.pen=rg.Pen('red',15)
+a=100
+b=350
+
+for k in range(3):
+    Dabin.pen_up()
+    Dabin.left(90)
+    Dabin.forward(100)
+    Dabin.right(90)
+    Dabin.pen_down()
+    Dabin.left(-45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(b)
+    Dabin.left(90)
+    Dabin.backward(b)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    Dabin.left(45)
+    Dabin.backward(a)
+    a=a-20
+    b=b-70
+
+

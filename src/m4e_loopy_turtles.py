@@ -28,6 +28,7 @@ Concepts include:
  * ASSIGNMENT and NAMES
   -- ASSIGNING a VALUE to a NAME (VARIABLE), as in these examples:
         jack = 45
+
         jill = 'ran down the hill'
         size = size - 12
   -- The computer's STATE during a run of a program is the set
